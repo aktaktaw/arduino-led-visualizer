@@ -12,11 +12,14 @@ Arduino Nano LED Visualizer using sound sensor
 Arduino IDE
 
 # Schematic 
-Arduino  <----- Sound Sensor
-5V              VCC
-GND             GND
-D7              Signal
+| Arduino       | Sound Sensor  |
+| ------------- | ------------:|
+| 5V| VCC |
+| GND |GND |
+| D7 | Signal| 
 
-Arduino <------ LED
-D8              Anode Leg
-GND             Cathode
+
+| Arduino       | LED  |
+| ------------- | ------------:|
+| D8 | Anode Leg |
+| GND |Cathode + 220Ohm Resistor |
